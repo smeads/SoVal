@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto'; sans-serfi;
+  color: white;
+  min-height: 100%;
+}
+
+body.landing {
+  background-image: url(../assets/images/landscape.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 0.5rem;
+}
+
+.navbar .logo img {
+  position: relative;
+  left: 2rem;
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+}
+
+.navbar .navlinks-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    text-decoration: none;
+}
+
+.navlinks-container .navbar-link {
+    list-style-type: none;
+    position: relative;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-link li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar-link a:hover {
+    color: #8b8d8e;
+}
+
+.navbar-link a:active {
+    color: black;
+}

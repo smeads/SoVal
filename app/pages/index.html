@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" >
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
-<header>
-</header>
-<body>
-  <h1>SoVal</h1>
+<body class="landing">
+  <nav class="navbar">
+    <a ui-sref="home" class="logo">
+      <img src="/assets/images/soval-logo-white.png">
+    </a>
+    <div class="navlinks-container">
+      <ul class="navbar-link">
+        <li><a ui-sref="#">Home</a></li>
+        <li><a ui-sref="#">About</a></li>
+        <li><a ui-sref="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
-  <script src="https://use.fontawesome.com/d8f43a7d95.js"></script>
   <script src="/scripts/app.js"></script>
 </body>
 <footer>

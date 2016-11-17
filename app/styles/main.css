@@ -18,6 +18,7 @@ body {
 body.landing {
   background-image: url(../assets/images/landscape.jpg);
   background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
   background-position: center center;
   background-size: cover;
 }
@@ -69,3 +70,13 @@ body.landing {
 .navbar-link a:active {
     color: black;
 }
+
+/* Medium and small screens (640px) */
+ @media (min-width: 640px) {
+   html { font-size: 112%; }
+ }
+
+ /* Large screens (1024px) */
+ @media (min-width: 1024px) {
+   html { font-size: 120%; }
+ }

@@ -58,3 +58,62 @@
   color: black;
   border-color: black;
 }
+
+.works-container {
+  background: white;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 34rem;
+  color: rgb(82, 118, 100);
+}
+
+.works-header {
+  position: relative;
+  top: 2rem;
+  color: black;
+}
+
+.works-body {
+  position: relative;
+  top: 8rem;
+  width: 100%;
+}
+
+.works-body h3 {
+  color: black;
+}
+
+.works-body .column{
+  width: 400px;
+  float: left;
+  margin: 2rem;
+  text-align: left;
+}
+
+.about-container {
+  background: rgb(82, 118, 100);
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 34rem;
+  color: white;
+}
+
+.about-header {
+  position: relative;
+  top: 2rem;
+}
+
+.about-body {
+  position: relative;
+  top: 8rem;
+  width: 100%;
+}
+
+.about-body .column{
+  width: 400px;
+  float: left;
+  margin: 2rem;
+  text-align: left;
+}

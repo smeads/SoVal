@@ -15,7 +15,7 @@
 
       .state('valuation', {
         url: '/valuation',
-        controller: 'ValuationCtrl as valuation',
+        controller: 'ValuationCtrl',
         templateUrl: 'templates/valuation.html'
       });
   }
